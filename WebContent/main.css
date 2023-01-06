@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+p, h1, h2, h3, h4 {
+	margin:0;
+	padding: 0;
+}
+
+html {
+	color: white;
+	
+}
+
+
+header {
+	display: flex;
+	height: 80px;
+	background-color: blue;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+nav {
+	display: flex;
+	background-color: blueviolet;
+	height: 60px;
+	align-items: center;
+	
+}
+
+nav > a {
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+		
+}
+
+nav > a:first-child{	
+	margin-left: 5px;
+
+}
+
+section {
+	color: black;
+	background-color: powderblue;
+	height: 500px;
+
+}
+
+footer {
+	display: flex;
+	background-color: blue;
+	height : 60px;
+	align-items: center;
+	justify-content: center;	
+	
+}
+
+section > h2 
+{
+	text-align: center;
+	
+}
+
+table {
+	margin: 0 auto;
+	text-align: center;
+	width: 500px;
+	
+	
+}
+
+td {
+	height: 34px;
+	
+}
+
+table, td, th {  
+  	border: 1px solid black;
+
+}
+
+button {
+	width: 100px;
+	
+}
